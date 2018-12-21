@@ -1,0 +1,21 @@
+<!doctype html>   <!-- THe landing page of the project -->
+<html>
+  <head>
+    <title>Google Maps API Final Project Implementation</title>
+         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>  <!-- Jqery for the script. to make dynamic changes -->
+         <script src="{{ url_for('static', filename='jsScript.js') }}"></script>
+  </head>
+
+  <style>
+      h1 {color:Green;}
+      p {color:Yellow;}
+</style>
+  <h1>Landing Page for the Final Project</h1>  <!-- Heading for the page -->
+  <body>
+    <input type="text" id="query" placeholder="Where do you want to go!">  <!-- placeholder value -->
+    <button id="search">Search</button>  <!-- The search button -->
+
+    <p><a href="" id="url" target="_blank">Here you go!</a></p>  <!--This link is populated with a URL and opens a new tab with Google maps -->
+
+  </body>
+</html>
